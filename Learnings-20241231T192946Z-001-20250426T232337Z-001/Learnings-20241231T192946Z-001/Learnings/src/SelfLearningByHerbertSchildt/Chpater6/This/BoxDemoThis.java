@@ -1,4 +1,4 @@
-package SelfLearningByHerbertSchildt.Chpater6.This;
+package SelfLearningByHerbertSchildt.Chapter6.This;
 
 /*
     Here Box uses parameterized constructor to

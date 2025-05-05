@@ -1,4 +1,4 @@
-package SelfLearningByHerbertSchildt.Chpater6.Object;
+package SelfLearningByHerbertSchildt.Chapter6.Object;
 
 // This program uses a parameterized method
 class Box{

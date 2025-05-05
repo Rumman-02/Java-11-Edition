@@ -1,4 +1,4 @@
-package SelfLearningByHerbertSchildt.Chpater6.This.InstanceVarHide;
+package SelfLearningByHerbertSchildt.Chapter6.This.InstanceVarHide;
 
 /*
     Here Box uses parameterized constructor to

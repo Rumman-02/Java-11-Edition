@@ -1,4 +1,4 @@
-package SelfLearningByHerbertSchildt.Chpater6.ParameterConstructor;
+package SelfLearningByHerbertSchildt.Chapter6.ParameterConstructor;
 
 /*
     Here Box uses parameterized constructor to
@@ -15,12 +15,14 @@ class Box{
         height=w; // "This" represents the current object
         width=h;
         depth=d;
+        double volume=height*width*depth;
+        System.out.println(volume);
     }
 
     // Compute the volume of the box
-    double volume(){
-        return height*width*depth;
-    }
+//    double volume(){
+//        return height*width*depth;
+//    }
 }
 
 public class BoxDemo7 {
@@ -30,7 +32,9 @@ public class BoxDemo7 {
         Box myBox1=new Box(10,20,15);
         Box myBox2=new Box(3,6,9);
 
-        System.out.println("\nVolume of first box: "+myBox1.volume());
-        System.out.println("Volume of second Box: "+myBox2.volume());
+//        System.out.println("\nVolume of first box: "+myBox1.volume());
+//        System.out.println("Volume of second Box: "+myBox2.volume());
+        System.out.println(myBox1);
+        System.out.println(myBox2);
     }
 }

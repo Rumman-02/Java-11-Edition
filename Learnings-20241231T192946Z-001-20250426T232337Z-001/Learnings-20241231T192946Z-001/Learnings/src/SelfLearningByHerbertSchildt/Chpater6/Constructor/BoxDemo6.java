@@ -1,4 +1,4 @@
-package SelfLearningByHerbertSchildt.Chpater6.Constructor;
+package SelfLearningByHerbertSchildt.Chapter6.Constructor;
 
 /*
     Here, Box uses a constructor to initialize the
