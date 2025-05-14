@@ -10,8 +10,8 @@ class Test1{
     }
     // Pass an object
     void meth(Test1 o){
-        a*=2;
-        b/=2;
+        o.a*=2;
+        o.b/=2;
     }
 }
 
