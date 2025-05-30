@@ -1,4 +1,4 @@
-package SelfLearningByHerbertSchildt.Chapter9.mypack;
+package SelfLearningByHerbertSchildt.Chapter9.Package.myPack;
 
 class Balance {
     String name;
