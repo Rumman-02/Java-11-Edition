@@ -16,9 +16,12 @@ public class throwDemo {
         try{
             demoproc();
         }catch(NullPointerException e){
-            //System.out.print("Recaught "+e.getMessage());
-            System.out.print("Recaught ");
-            //System.out.println(e);
+            System.out.print("Recaught> "+e);
+            /*
+            1. Here we have rethrown the exception (rethrow e) to aware the "main()" method
+            2. As we have rethrown, e.getMessage() will only print the message not the exception (Line: 19)
+             */
+
         }
     }
 }

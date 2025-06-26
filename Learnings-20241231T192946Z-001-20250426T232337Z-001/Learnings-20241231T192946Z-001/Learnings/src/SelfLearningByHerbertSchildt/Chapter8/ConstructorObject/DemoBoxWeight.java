@@ -65,6 +65,9 @@ public class DemoBoxWeight {
         BoxWeight m=new BoxWeight(4.5,5.5,6.5,7.5);
         System.out.println("Value of the 4th parament: "+m.weight);
 
+        Box8 q=new BoxWeight(1,2,3,4);
+        System.out.println(q.volume());
+
 
     }
 }

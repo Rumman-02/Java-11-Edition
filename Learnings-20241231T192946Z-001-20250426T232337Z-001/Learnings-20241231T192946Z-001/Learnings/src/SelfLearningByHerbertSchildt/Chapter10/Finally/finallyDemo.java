@@ -15,10 +15,10 @@ public class finallyDemo {
     }
 
     // Return form within a try block
-    static void procB(){
+    static String procB(){
         try{
             System.out.println("Inside procB.");
-            return;
+            return "None";
         }finally {
             System.out.println("procB's finally");
         }

@@ -9,12 +9,13 @@ class Stack{
     Stack(){
         index=-1;
     }
-    void push(int item){
-        if(index==9){
+    int push(int item){
+        if(index == 9){
             System.out.println("Stack overflown");
+            return 0;
         }
         else
-            stck[++index]=item;
+            return stck[++index]=item;
     }
     int pop(){
         if(index<0){
@@ -29,10 +30,12 @@ public class TestStack {
     public static void main(String[] args){
         Stack myStack1=new Stack();
         //Stack myStack2=new Stack();
-
+        System.out.println("Pushed items: ");
         for(int i=0;i<10;i++){
-            myStack1.push(i);
+            System.out.println(myStack1.push(i));
         }
+        System.out.println();
+        System.out.println("Popped Items: ");
         for (int i=0;i<10;i++){
             System.out.println(myStack1.pop());
         }

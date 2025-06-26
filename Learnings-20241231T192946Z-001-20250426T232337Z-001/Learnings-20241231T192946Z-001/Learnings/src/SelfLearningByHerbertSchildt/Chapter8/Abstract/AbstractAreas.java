@@ -57,7 +57,6 @@ public class AbstractAreas {
         figuref=t;
         System.out.println(figuref.area());
         //System.out.println(figuref.dim1);
-
          */
     }
 }
