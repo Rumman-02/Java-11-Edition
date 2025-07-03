@@ -21,10 +21,10 @@ class stackOperation{
             return stck[index--];
         }
     }
-
-    int peek(){
-
-    }
+//
+//    int peek(){
+//
+//    }
 }
 
 

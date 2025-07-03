@@ -25,7 +25,7 @@ public class RetOb {
         Test ob1=new Test(2); //Calls Test(int 2)
         Test ob2;
 
-        ob2=ob1.incrByTen(); //ob2 is blank here
+        //ob2=ob1.incrByTen(); //ob2 is blank here
         System.out.println("ob1.a: "+ob1.a);//print 2,doesn't call any method>(incrByTen)
 
         ob2=ob1.incrByTen();
